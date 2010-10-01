@@ -5,6 +5,8 @@
 *~
 *.bak
 *.old
+*.rar
+*.zip
 
 manifest.mf
 build.xml

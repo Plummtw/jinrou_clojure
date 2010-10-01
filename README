@@ -1,0 +1,28 @@
+# jinrou_clojure
+
+FIXME: write description
+
+## 使用說明
+
+FIXME: write
+
+## 安裝說明
+
+1. 安裝 Java
+
+2. 安裝 Lein
+
+3. 安裝 mongodb
+  3.1 下載 mongodb 
+      mongod --dbpath \""D:\Tools\mongodb-win32-i386-1.6.2\bin\"" --install --logpath \""D:\Tools\mongodb-win32-i386-1.6.2\bin\log""
+	  net start mongdb
+  3.2 為了安全起見，於 mongodb 上新增 admin
+      use admin
+      db.addUser("admin","密碼")
+  3.3 開防火牆擋外部連結 mongodb 用的 27017 port 
+
+## License
+
+Copyright (C) 2010 FIXME
+
+Distributed under the Eclipse Public License, the same as Clojure.

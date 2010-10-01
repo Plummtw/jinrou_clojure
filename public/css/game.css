@@ -1,0 +1,174 @@
+.server-name { /* Server 名稱 */
+  text-align: right;
+  font-weight: bold;
+}
+table.main{ /* 主畫面表格 */
+  border: 0;
+  width: 100%;
+  padding: 5px;
+}
+table.main td{vertical-align: top;}
+table.chat-table td {
+  vertical-align: middle;
+  border-bottom: 1px dashed #C0C0C0;
+ }
+.chat-user-name{width: 200px;}
+
+.menu{ /* 選單 */
+  border: 1px solid #FF7700;
+  width: 160px;
+  padding: 5px 1px;
+  background-color: #FFDDBB;
+  text-align: center;
+  font-weight: bold;
+}
+td.menu-td {
+  width: 160px;
+}
+
+ul.menu-item { /* 選單項目 */
+  list-style-type: none;
+  margin-left: -32px;
+  *margin-left: 8px; /* IE6 對應 */
+  line-height: 150%;
+  font-size: 95%;
+}
+
+#login_button, #logout_button {
+  border-style: none;
+  border-color: transparent;
+  color: #AAAAFF;
+  background-color: transparent;
+  vertical-align:middle; 
+
+  font-size: 100%;
+  cursor:pointer;
+  display:inline-block;
+  margin-right:0.1em;
+  overflow:visible;
+  padding:0;
+  position:relative;
+  text-align:center;
+  text-decoration:none !important;
+}
+
+#login_button:hover, #logout_button:hover { color: #9999EE; /*text-decoration: underline;*/ }
+
+.information{ /* 伺服器公告 */
+  margin: 10px 10px;
+}
+.information h1 h2 h3 h4{
+  margin: 0px;
+  padding: 5px 0px;
+}
+.information h1{
+  background-color: #CCFFCC;
+  font-size: 120%;
+}
+.information h2{
+  background-color: #CCFFFF;
+  font-size: 100%;
+}
+.information h3{
+  background-color: #FFDDDD;
+  font-size: 100%;
+}
+.information h4{
+  background-color: #DDDDDD;
+  font-size: 100%;
+}
+/* game-list */
+/*
+.game-list{
+  margin: 20px 20px 30px;
+  line-height: 135%;
+  font-weight: bold;
+}
+.game-list div{text-align: right;}
+/*
+
+
+/* 建村表格 */
+/* form{margin-top: 10px;} */
+
+.footer{ /* 表尾 */
+  margin-bottom: 5px;
+  text-align:right;
+  font-size: 80%;
+}
+
+
+/* Component containers
+----------------------------------*/
+.ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
+.ui-widget-content { border: 1px solid #aaaaaa/*{borderColorContent}*/; background: #ffeecc/*{bgColorContent}*/; color: #222222/*{fcContent}*/; }
+.ui-widget-content a { color: #222222/*{fcContent}*/; }
+.ui-widget-header { border: 1px solid #E78F08/*{borderColorHeader}*/; background: #ccccff/*{bgColorHeader}*/; color: #222222/*{fcHeader}*/; font-weight: bold; }
+.ui-widget-header a { color: #222222/*{fcHeader}*/; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3/*{borderColorDefault}*/; background: #f79f18/*{bgColorDefault}*/; color: #555555/*{fcDefault}*/; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555/*{fcDefault}*/; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999/*{borderColorHover}*/; background: #dadada/*{bgColorHover}*/;  /*font-weight: normal{fwDefault};*/ color: #212121/*{fcHover}*/; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #667788/*{fcHover}*/; background: #FFCC99; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa/*{borderColorActive}*/; background: #ffffff/*{bgColorActive}*/; color: #212121/*{fcActive}*/; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #556677/*{fcActive}*/; background: #FFDDAA; text-decoration: none; }
+.ui-widget :active { outline: none; }
+
+
+
+.ui-tabs {
+  padding:0.2em;
+  position:relative;
+}
+.ui-tabs .ui-tabs-nav {
+  margin:0;
+  padding:0.2em 0.2em 0;
+}
+.ui-tabs .ui-tabs-nav li {
+  border-bottom:0 none !important;
+  float:left;
+  list-style:none outside none;
+  margin:0 0.2em 1px 0;
+  padding:0;
+  position:relative;
+  top:1px;
+  white-space:nowrap;
+}
+.ui-tabs .ui-tabs-nav li a {
+  float:left;
+  padding:0.5em 1em;
+  text-decoration:none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+  margin-bottom:0;
+  padding-bottom:1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+  cursor:text;
+}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+  cursor:pointer;
+}
+.ui-tabs .ui-tabs-panel {
+  background:none repeat scroll 0 0 transparent;
+  border-width:0;
+  display:block;
+  padding:1em 1.4em;
+}
+.ui-tabs .ui-tabs-hide {
+  display:none !important;
+}
+
+.game-list-table a {
+  text-align: left;
+  color:#0000ff;
+  text-decoration: underline;
+}
+
+.small-right small{
+  text-align: right;
+}

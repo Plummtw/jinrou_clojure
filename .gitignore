@@ -1,0 +1,15 @@
+
+*.class
+*.jar
+*.war
+*~
+*.bak
+*.old
+
+manifest.mf
+build.xml
+
+nbproject
+lib
+temp
+classes

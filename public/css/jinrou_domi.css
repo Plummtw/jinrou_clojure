@@ -1,0 +1,55 @@
+/* 全體定義部分 */
+a{
+  /* text-decoration:none; */
+  cursor:pointer;
+  display:inline-block;
+  margin-right:0.1em;
+  overflow:visible;
+  padding:0;
+  position:relative;
+  text-align:center;
+  vertical-align:middle;
+  text-decoration:none !important;
+}
+
+a:link { color: #AAAAFF; }
+a:hover { color: #9999EE; /*text-decoration: underline;*/ }
+a:visited { color: #AAAAFF;}
+body {
+  background-color: #FFEECC;
+  /* background-image: url("../images/top_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-attachment: fixed; */
+}
+img { border: 0; }
+table img{border: 1px solid;}
+
+fieldset {
+  margin-bottom: 10px;
+  border: 1px solid #BBBBFF;
+}
+legend { font-weight: bold; }
+noscript { /* JavaScript 未開啟時的警告 */
+  color: #FF0000;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.center { text-align: center; }
+.right  { text-align: right; }
+
+.small {font-size: 8pt; }
+
+.chat20 {font-size: 20pt; font-weight: bold; }
+.chat16 {font-size: 16pt; }
+.chat12 {font-size: 12pt; }
+.chat8 {font-size: 8pt; }
+.chat6 {font-size: 6pt; }
+
+.red   { color: #FF0000; }
+.green { color: #00BB00; }
+.blue  { color: #0000FF; }
+
+.parrot { color: #FF7700; }
+.godfat { color: #BB0077; }
